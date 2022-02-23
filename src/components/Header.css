@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #000000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4vw;
+    padding-bottom: 8px;
+    box-shadow: 0px 1px 5px black;
+    color: white;
+    z-index: 100;
+  }
+  /* for pixel less than 1000px (for mobile) */
+  @media (max-width: 1000px) {
+    .header {
+      padding-top: 15px;
+      font-size: 6.4vw;
+    }
+  }
+  
